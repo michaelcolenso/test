@@ -23,6 +23,8 @@
 		98D20D8213D2B233003841BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98D20D8013D2B233003841BB /* InfoPlist.strings */; };
 		98D20D8513D2B233003841BB /* HelloXcodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 98D20D8413D2B233003841BB /* HelloXcodeTests.h */; };
 		98D20D8713D2B233003841BB /* HelloXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D20D8613D2B233003841BB /* HelloXcodeTests.m */; };
+		98D20D9213D2B2DD003841BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D20D9013D2B2DD003841BB /* Icon.png */; };
+		98D20D9313D2B2DD003841BB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D20D9113D2B2DD003841BB /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +43,22 @@
 		98D20D5913D2B232003841BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98D20D5B13D2B232003841BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		98D20D5D13D2B232003841BB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		98D20D6113D2B232003841BB /* HelloXcode-Info.plist */ = {isa = PBXFileReference; path = "HelloXcode-Info.plist"; sourceTree = "<group>"; };
+		98D20D6113D2B232003841BB /* HelloXcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloXcode-Info.plist"; sourceTree = "<group>"; };
 		98D20D6313D2B232003841BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		98D20D6513D2B232003841BB /* HelloXcode-Prefix.pch */ = {isa = PBXFileReference; path = "HelloXcode-Prefix.pch"; sourceTree = "<group>"; };
+		98D20D6513D2B232003841BB /* HelloXcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloXcode-Prefix.pch"; sourceTree = "<group>"; };
 		98D20D6613D2B232003841BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		98D20D6813D2B232003841BB /* HelloXcodeAppDelegate.h */ = {isa = PBXFileReference; path = HelloXcodeAppDelegate.h; sourceTree = "<group>"; };
+		98D20D6813D2B232003841BB /* HelloXcodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcodeAppDelegate.h; sourceTree = "<group>"; };
 		98D20D6913D2B233003841BB /* HelloXcodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXcodeAppDelegate.m; sourceTree = "<group>"; };
 		98D20D6C13D2B233003841BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		98D20D6F13D2B233003841BB /* HelloXcode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloXcode.xcdatamodel; sourceTree = "<group>"; };
 		98D20D7613D2B233003841BB /* HelloXcodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloXcodeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D20D7F13D2B233003841BB /* HelloXcodeTests-Info.plist */ = {isa = PBXFileReference; path = "HelloXcodeTests-Info.plist"; sourceTree = "<group>"; };
+		98D20D7F13D2B233003841BB /* HelloXcodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloXcodeTests-Info.plist"; sourceTree = "<group>"; };
 		98D20D8113D2B233003841BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		98D20D8313D2B233003841BB /* HelloXcodeTests-Prefix.pch */ = {isa = PBXFileReference; path = "HelloXcodeTests-Prefix.pch"; sourceTree = "<group>"; };
+		98D20D8313D2B233003841BB /* HelloXcodeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloXcodeTests-Prefix.pch"; sourceTree = "<group>"; };
 		98D20D8413D2B233003841BB /* HelloXcodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcodeTests.h; sourceTree = "<group>"; };
 		98D20D8613D2B233003841BB /* HelloXcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXcodeTests.m; sourceTree = "<group>"; };
+		98D20D9013D2B2DD003841BB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		98D20D9113D2B2DD003841BB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 		98D20D6013D2B232003841BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98D20D9013D2B2DD003841BB /* Icon.png */,
+				98D20D9113D2B2DD003841BB /* Icon@2x.png */,
 				98D20D6113D2B232003841BB /* HelloXcode-Info.plist */,
 				98D20D6213D2B232003841BB /* InfoPlist.strings */,
 				98D20D6513D2B232003841BB /* HelloXcode-Prefix.pch */,
@@ -225,6 +231,8 @@
 			files = (
 				98D20D6413D2B232003841BB /* InfoPlist.strings in Resources */,
 				98D20D6D13D2B233003841BB /* MainWindow.xib in Resources */,
+				98D20D9213D2B2DD003841BB /* Icon.png in Resources */,
+				98D20D9313D2B2DD003841BB /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 				98D20D8C13D2B233003841BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98D20D8D13D2B233003841BB /* Build configuration list for PBXNativeTarget "HelloXcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +452,7 @@
 				98D20D8F13D2B233003841BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

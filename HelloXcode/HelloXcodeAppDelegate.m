@@ -22,6 +22,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UILabel *myMessage;
+    
+	myMessage=[[UILabel alloc] initWithFrame:CGRectMake(25.0,225.0,300.0,50.0)];
+	myMessage.text=@"Hello Xcode";
+	myMessage.font=[UIFont systemFontOfSize:48];
+	[_window addSubview:myMessage];
+    [myMessage release];    
+    
+
     [self.window makeKeyAndVisible];
     return YES;
 }
