@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HelloXcodeTests' target in the 'HelloXcodeTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
